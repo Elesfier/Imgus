@@ -1,31 +1,20 @@
 
-#include "forward-declaration.h"
-
-#include <iostream>
+#include "forward-declaration.hpp"
 
 using namespace Common;
 using namespace Operations;
 
 int main()
 {
-    try
-    {
-        const char* fileName = "/home/elesfier/ClionProjects/SPAM/Obrazek.png";
+    String currentImageStoragePath = "/graphics/Drugi.png";
+    String currentDirectory = Common::getCurrentDirectory();
+    String fileName = currentDirectory + currentImageStoragePath;
 
-        Image *img = new PNG(fileName);
-        Operation *op = new ImageNegation();
+    Image *img = new PNG(fileName);
+    Operation *op = new ImageNegation();
+    operate(img, op);
+    img->save();
 
-        //showImg(img);
-
-        operate(img, op);
-
-        //showImg(img);
-    }
-    catch(...)
-    {
-        std::cout << std::endl << "Wyjatek" << std::endl;
-    }
-
-    std::cout << std::endl << "Koniec programu." << std::endl;
+    std::cout << std::endl << "END" << std::endl << std::endl;
     return 0;
 }

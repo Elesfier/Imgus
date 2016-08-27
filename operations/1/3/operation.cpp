@@ -1,5 +1,5 @@
 
-#include "../../../Common/image-operation.h"
+#include "../../../common/images.hpp"
 
 //
 // 1.3. Iloczyn logiczna obrazow

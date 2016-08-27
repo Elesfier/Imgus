@@ -2,13 +2,13 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Projects/1/1/operation.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Common/gui.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Common/image-operation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Common/tools.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/gui.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/common.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/images.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/operations/1/1/operation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/forward-declaration.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/forward-declaration.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

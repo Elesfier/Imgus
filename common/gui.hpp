@@ -1,6 +1,6 @@
 
-#ifndef SPAM_COMMON_GUI_H
-#define SPAM_COMMON_GUI_H
+#ifndef COMMON_GUI_HPP
+#define COMMON_GUI_HPP
 
 namespace Common
 {
@@ -10,4 +10,4 @@ namespace Common
     };
 }
 
-#endif //SPAM_COMMON_GUI_H
+#endif //COMMON_GUI_HPP
