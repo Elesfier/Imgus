@@ -27,4 +27,7 @@
 *.exe
 *.out
 *.app
+
+# Clion
 bin/Images
+.idea/*
