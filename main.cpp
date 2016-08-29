@@ -1,20 +1,33 @@
 
-#include "forward-declaration.hpp"
+#include "forward-headers.hpp"
 
-using namespace Common;
-using namespace Operations;
-
-int main()
+void preTest()
 {
-    String currentImageStoragePath = "/graphics/Drugi.png";
-    String currentDirectory = Common::getCurrentDirectory();
+    using namespace Common;
+    using namespace Common::Formats;
+    using namespace Common::Windows;
+    using namespace Operations;
+
+    String currentImageStoragePath = "/img/ok.png";
+    String currentDirectory = Common::getCurrentPath();
     String fileName = currentDirectory + currentImageStoragePath;
+
+    //TODO: Tworzenie GUI
+    //GUI* gui = new QT();
+    //gui->run();
 
     Image *img = new PNG(fileName);
     Operation *op = new ImageNegation();
     operate(img, op);
     img->save();
 
-    std::cout << std::endl << "END" << std::endl << std::endl;
+    delete img;
+    delete op;
+}
+
+int main()
+{
+    preTest();
+
     return 0;
 }
