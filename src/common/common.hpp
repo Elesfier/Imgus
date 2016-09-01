@@ -67,7 +67,7 @@ namespace Common
         class GUI
         {
         public:
-            virtual void run() = 0;
+            virtual int execute(int argc, char *argv[]) = 0;
         };
     }
 
