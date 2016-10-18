@@ -1,15 +1,14 @@
 
-#include "../../../common/common.hpp"
+#include "src/common/common.hpp"
 
 //
 // 1.3. Iloczyn logiczna obrazow
 //
 class ProductOfLogicalPaintings : public Common::Formats::Operation
 {
-    bool operate(Common::Formats::Image *img)
+    void operate(Common::Formats::Image *img)
     {
-        //TODO
-        return true;
+
     }
 };
 

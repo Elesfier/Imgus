@@ -3,7 +3,7 @@ project(Images)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lboost_system -lboost_filesystem")
-set(SOURCE_FILES main.cpp src/operations/1/ImageNegation/operation.cpp forward-headers.hpp src/common/common.hpp src/common/formats/PNG.cpp src/common/formats/PNG.hpp src/common/windows/QT.cpp src/common/windows/QT.hpp)
+set(SOURCE_FILES main.cpp src/operations/ImageNegation/operation.cpp src/common/common.hpp src/common/formats/PNG.cpp src/common/formats/PNG.hpp src/common/windows/QT.cpp src/common/windows/QT.hpp src/operations/operations.hpp)
 
 set(Boost_USE_STATIC_LIBS OFF)
 set(Boost_USE_MULTITHREADED ON)

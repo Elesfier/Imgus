@@ -2,7 +2,7 @@
 #ifndef COMMON_FORMATS_PNG_HPP
 #define COMMON_FORMATS_PNG_HPP
 
-#include "../common.hpp"
+#include "src/common/common.hpp"
 
 #define png_infopp_NULL (png_infopp)NULL
 #define int_p_NULL (int*)NULL
