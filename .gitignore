@@ -28,6 +28,12 @@
 *.out
 *.app
 
-# Clion
-bin/Images
-.idea/*
+# CMake files/folders
+bin/
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Images_automoc.cpp
+Imgus_automoc.cpp
+Makefile
+moc_QT.cpp
