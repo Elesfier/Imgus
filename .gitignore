@@ -1,3 +1,4 @@
+
 # Compiled Object files
 *.slo
 *.lo
@@ -31,9 +32,12 @@
 # CMake files/folders
 bin/
 CMakeFiles/
+Imgus_automoc.dir/
 cmake_install.cmake
 CMakeCache.txt
 Images_automoc.cpp
 Imgus_automoc.cpp
+moc_qcustomplot.cpp
 Makefile
 moc_QT.cpp
+.gdbinit

@@ -1,6 +1,6 @@
 # Imgus
-Imgus is an open-source image-processing program (in Polish) (in progress)
+Imgus is an open-source image-processing program (in Polish).
 
-This is academic project.
+This is academic project (old crappy code).
 
-![Alt text](Imgus.png?raw=true "Imgus") 
+![Alt text](Imgus.png?raw=true "Imgus")
